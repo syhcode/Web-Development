@@ -1,1 +1,2 @@
-# Web-Development
+#### My Next Door website:
+Relying on Apache Server, this website is to strengthen the relationship between the neighbors. The registered neighbors can build relationship, share blogs, send or reply messages to others through this website.  
