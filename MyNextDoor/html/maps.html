@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<script type="text/javascript" src="../js/map.js"></script>
+		<script async defer
+		  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY2z_ImrPUoyHiT60OS7Wlo9OU5JG_5pw&callback=initMap">
+		</script>
+		<link rel="stylesheet" type="text/css" href="../css/map.css">	
+	</head>
+
+	<body>
+		<div id="buttonList">
+			<input type=button id="hideMarkers" value="Hide Markers">
+			<input id="showMarkers" type="button" value="Show All Markers"></input>
+			<input id="deleteMarkers" type="button" value="Delete Markers">
+			</input>
+			<input type="textbox" id="address" placeholder="please input your address" style="width:200px;"/>
+			<input type="button" id="submit" value="confirm">
+		</div>
+
+		<div id="map">
+		</div>
+
+	</body>
+</html>

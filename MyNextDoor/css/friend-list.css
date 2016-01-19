@@ -1,0 +1,14 @@
+.container{
+	position: relative;
+	top:30px;
+}
+
+.btn-group-vertical .btn {
+	height:53px;
+}
+
+#list-title{
+	margin-top:5px;
+	font-family:arial;
+	font-weight:bold;	
+}

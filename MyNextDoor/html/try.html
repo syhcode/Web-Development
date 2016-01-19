@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+			<ul class="nav navbar-nav" data-spy="affix">
+				<li class="active"><a href="#">Home</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+						<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Page 1-1</a></li>
+						<li><a href="#">Page 1-2</a></li>
+						<li><a href="#">Page 1-3</a></li> 
+					</ul>
+				</li>
+				<li><a href="#">Page 2</a></li> 
+				<li><a href="#">Page 3</a></li> 
+			</ul>
+
+			<h1>Hello World!</h1>
+			<p>Resize the browser window to see the effect.</p>
+			<div class="row">
+				<div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+				<div class="col-sm-4" style="background-color:lavenderblush;"><mark>.col-sm-4</mark></div>
+				<div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+				<div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+				<div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+				<div class="col-sm-4" style="background-color:lavender;"><mark>.col-sm-4</mark></div>
+				<div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+				<div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+				<div class="col-sm-4" style="background-color:lavender;"><mark>.col-sm-4</mark></div>
+				<blockquote>
+					<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the <abbr title="World Health Organization">United States and close</abbr> to 5 million globally.</p>
+					<footer>From WWF's <code>love</code> website</footer>
+				</blockquote>
+				<dl>
+					<dt>Coffee</dt>
+					<dd>- black hot drink</dd>
+					<dt>Milk</dt>
+					<dd>- white cold drink</dd>
+				</dl>  
+				<pre>
+		Text in a pre element
+		is displayed in a fixed-width
+		font, and it preserves
+		both      spaces and
+		line breaks.
+				</pre>
+				<p>Use the contextual classes to provide "meaning through colors":</p>
+				<p class="text-muted">This text is muted.</p>
+				<p class="text-primary">This text is important.</p>
+				<p class="text-success">This text indicates success.</p>
+				<p class="text-info">This text represents some information.</p>
+				<p class="text-warning">This text represents a warning.</p>
+				<p class="text-danger">This text represents danger.</p>
+				<p>Use the contextual background classes to provide "meaning through colors":</p>
+				<p class="bg-primary">This text is important.</p>
+				<p class="bg-success">This text indicates success.</p>
+				<p class="bg-info">This text represents some information.</p>
+				<p class="bg-warning">This text represents a warning.</p>
+				<p class="bg-danger">This text represents danger.</p>
+
+			</div> 
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+					<tr>
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="jumbotron">
+				<h1>Bootstrap Tutorial</h1>      
+				<p class="well">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+			</div>
+			<div class="alert alert-success fade in">
+				<strong>Success!</strong> Indicates a successful or positive action.
+			</div>
+
+			<div class="alert alert-success fade in">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				<strong>Success!</strong> Indicates a successful or positive action.
+			</div>
+
+			<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-link">Link</button>
+			<button type="button" class="btn btn-primary btn-lg">Large</button>
+			<button type="button" class="btn btn-primary btn-md">Medium</button>
+			<button type="button" class="btn btn-primary btn-sm">Small</button>
+			<button type="button" class="btn btn-primary btn-xs">XSmall</button>
+			<button type="button" class="btn btn-primary btn-block">Button 1</button>
+
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+
+			</br>
+
+			<div class="btn-group btn-group-lg">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+
+			</br>
+
+			<div class="btn-group-vertical">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+
+			</br>
+
+			<ul class="button-group radius">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</ul>
+			
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">Panel Header</div>
+					<div class="panel-body">Panel Content</div>
+				</div>
+				<div class="panel panel-success">
+					<div class="panel-heading">Panel Header</div>
+					<div class="panel-body">Panel Content</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">Panel Header</div>
+					<div class="panel-body">Panel Content</div>
+				</div>
+			</div>
+			
+			<p>Envelope icon as a link:
+			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+			</p>
+			<p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+			<p>Search icon on a button:
+			<button type="button" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span> Search
+			</button>
+			</p>
+			<p>Search icon on a styled button:
+			<button type="button" class="btn btn-info">
+				<span class="glyphicon glyphicon-search"></span> Search
+			</button>
+			</p>
+			<p>Print icon: <span class="glyphicon glyphicon-print"></span></p>      
+			<p>Print icon on a styled link button:
+			<a href="#" class="btn btn-success btn-lg">
+				<span class="glyphicon glyphicon-print"></span> Print 
+			</a>
+			</p> 
+
+			<h2>Badges</h2>
+			<a href="#">News <span class="badge">5</span></a><br>
+			<a href="#">Comments <span class="badge">10</span></a><br>
+			<a href="#">Updates <span class="badge">2</span></a>
+
+			<button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+																	  aria-valuemin="0" aria-valuemax="100" style="width:40%">
+					40% Complete (success)
+				</div>
+			</div>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+																   aria-valuemin="0" aria-valuemax="100" style="width:50%">
+					50% Complete (info)
+				</div>
+			</div>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+																	  aria-valuemin="0" aria-valuemax="100" style="width:60%">
+					60% Complete (warning)
+				</div>
+			</div>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+																	 aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					70% Complete (danger)
+				</div>
+			</div>
+
+			<ul class="pagination">
+				<li><a href="#">1</a></li>
+				<li class="active"><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+			</ul>
+
+			<ul class="pager">
+				<li><a href="#">Previous</a></li>
+				<li><a href="#">Next</a></li>
+			</ul>
+
+			<ul class="pager">
+				<li class="previous"><a href="#">Previous</a></li>
+				<li class="next"><a href="#">Next</a></li>
+			</ul>
+
+			<h2>List Group With Badges</h2>
+			<ul class="list-group">
+				<li class="list-group-item"><span class="badge">12</span> New</li>
+				<li class="list-group-item"><span class="badge">5</span> Deleted</li>  
+				<li class="list-group-item"><span class="badge">3</span> Warnings</li>  
+			</ul>
+
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+			<div id="demo" class="collapse">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</div>
+
+			<ul class="list-inline">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu 1</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+			</ul>
+
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#">Home</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1
+						<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Submenu 1-1</a></li>
+						<li><a href="#">Submenu 1-2</a></li>
+						<li><a href="#">Submenu 1-3</a></li> 
+					</ul>
+				</li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+			</ul>
+
+			<ul class="nav nav-pills">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Menu 1</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+			</ul>
+
+
+			<h3>Centered Tabs</h3>
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Menu 1</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+			</ul>
+			<br>
+			<h3>Centered Pills</h3>
+			<ul class="nav nav-pills nav-justified">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Menu 1</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+			</ul>
+
+
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">WebSiteName</a>
+					</div>
+					<div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Page 1</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+
+
+
+			<form role="form">
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+			<form class="form-inline" role="form">
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="email">Email:</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="email" placeholder="Enter email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="pwd">Password:</label>
+					<div class="col-sm-10"> 
+						<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+					</div>
+				</div>
+				<div class="form-group"> 
+					<div class="col-sm-offset-2 col-sm-10">
+						<div class="checkbox">
+							<label><input type="checkbox"> Remember me</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group"> 
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
+				</div>
+			</form>
+
+			<h2>Modal Example</h2>
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Modal Header</h4>
+						</div>
+						<div class="modal-body">
+							<p>Some text in the modal.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>

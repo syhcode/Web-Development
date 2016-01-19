@@ -1,0 +1,25 @@
+.container{
+	position: relative;
+	top:30px;
+}
+
+.btn-group-vertical .btn {
+	height:53px;
+}
+
+.panel-body{
+	position:relative;
+}
+
+.person-key {
+	font-family:arial;
+	font-weight:bold;
+}
+
+button.friend-apply {
+	position:relative;
+	left:10px;
+	top:10px;
+	margin-bottom:20px;
+}
+

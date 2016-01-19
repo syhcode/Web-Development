@@ -1,0 +1,21 @@
+.container{
+	position: relative;
+	top:30px;
+}
+
+.btn-group-vertical .btn {
+	height:53px;
+}
+
+#list-title{
+	margin-top:5px;
+	font-family:arial;
+	font-weight:bold;	
+}
+
+button.friend-apply {
+	position:relative;
+	left:10px;
+	top:10px;
+	margin:40px 0px;
+}

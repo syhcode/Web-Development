@@ -1,0 +1,76 @@
+.container{
+	position: relative;
+	top:30px;
+}
+
+.btn-group-vertical .btn {
+	height:53px;
+}
+
+.post_name {
+	font-weight:bold;
+}
+ 
+.post_time {
+	color:#c0c0c0;
+	font-weight:normal;
+}
+
+.post_address {
+	color:#c0c0c0;
+	font-size:12px;
+}
+
+
+textarea {
+	padding:0px;
+}
+
+button.message_submit {
+	position:relative;
+	top:5px;
+	left:2px;
+}
+
+tbody {
+	position:relative;
+	top:10px;
+}
+
+td.post_name {
+	width:20%;
+}
+
+td.post_time {
+	width:15%;
+}
+
+.post_message {
+	height: 80px;
+}
+
+.post_submit {
+	position:relative;
+	left:6px;
+}
+
+.post_range {
+	position:relative;
+	left:60px;
+}
+
+div.radio {
+	position:relative;
+	top:10px;
+	left:-45px;
+	display:inline-block;
+}
+
+.message_reply {
+	position:relative;
+	left:12px;
+}
+
+.checkbox-inline {
+	position:relative;
+}

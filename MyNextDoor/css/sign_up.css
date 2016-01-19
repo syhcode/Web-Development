@@ -1,0 +1,38 @@
+.main_menu {
+	width:800px;
+	position:relative;
+	top:100px;
+	left:15%;
+}
+
+.form-group {
+	width:400px;
+	position:relative;
+	left:20px;
+}
+
+.title {
+	font-family:Arial;
+	font-size:20pt;
+	font-weight:bold;
+	font-style:italic;
+}
+
+button[type="submit"] {
+	position:relative;
+	left:30px;
+}
+
+.hint {
+	color:#c0c0c0;
+}
+
+#map1 { 
+	height:200px;
+	width:400px;
+}
+
+#buttonList{
+	background-color: #fff;
+	text-align: center;
+}
